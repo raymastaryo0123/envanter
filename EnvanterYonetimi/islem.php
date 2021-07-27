@@ -15,7 +15,7 @@ session_start();
      } elseif(!$password || !$password_again){
          
      } elseif($password != $password_again){
-        header('Refresh:0; http://localhost/login/kayit.php');
+        header('Refresh:0; https://envantersistemi.herokuapp.com/kayit.php');
      } else{
          //veritabanı kayit
          $sorgu = $db->prepare('INSERT INTO users SET user_name = ?, user_password = ?');
@@ -24,10 +24,10 @@ session_start();
          ]);
          if($ekle){
      
-             header('Refresh:0; http://localhost/EnvanterYonetimi/index.php');
+             header('Refresh:0; https://envantersistemi.herokuapp.com/index.php');
 
          } else{
-            header('Refresh:0; http://localhost/login/kayit.php');
+            header('Refresh:0; https://envantersistemi.herokuapp.com/kayit.php');
          }
      }
  }
@@ -50,9 +50,9 @@ session_start();
         if($say==1){
             $_SESSION['username']=$username;
             
-            header('Refresh:0; http://localhost/EnvanterYonetimi/index1.php');
+            header('Refresh:0; https://envantersistemi.herokuapp.com/index1.php');
         } else{
-            header('Refresh:0; http://localhost/EnvanterYonetimi/index.php');
+            header('Refresh:0; https://envantersistemi.herokuapp.com/index.php');
         }
      }
  }

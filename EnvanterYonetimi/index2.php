@@ -182,19 +182,19 @@ background: linear-gradient(to right, #556270, #4ECDC4);
   </div>
   <ul class="nav_list ">
     <li >
-    <a href="http://localhost/EnvanterYonetimi/">
+    <a href="https://envantersistemi.herokuapp.com/">
       <i class='q bx bx-user  '></i>
       <span class="links_name ms-1 ">Çıkış</span>
       </a>
     </li>
     <li>
-      <a href="http://localhost/EnvanterYonetimi/index1.php">
+      <a href="https://envantersistemi.herokuapp.com/index1.php">
       <i class='q bx bx-library' ></i>
       <span class="links_name ms-1">Envanter Takibi</span>
       </a>
     </li>
     <li>
-      <a href="http://localhost/EnvanterYonetimi/index2.php">
+      <a href="https://envantersistemi.herokuapp.com/index2.php">
       <i class='q bx bx-book-alt' ></i>
       <span class="links_name ms-1">Ürün Takibi</span>
       </a>
@@ -286,7 +286,7 @@ background: linear-gradient(to right, #556270, #4ECDC4);
 			<th style="font-family: cursive;">Teslim Alan Adı</th>
 			<th style="font-family: cursive;">Teslim Alan Teli</th>
 			<th style="font-family: cursive;">Teslim Alma Nedeni</th>
-			<th style="font-family: cursive;">Teslim Zamanı</th>
+			<th style="font-family: cursive;">Teslim Alma Zamanı</th>
 			<th style="font-family: cursive;">Tahmini Teslim Etme Zamanı</th>
 			<th style="font-family: cursive;">Teslim Durumu</th>
 			<th style="font-family: cursive;" >İşlemler</th>
